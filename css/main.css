@@ -1,0 +1,211 @@
+body {
+	background: #000;
+}
+
+h1 {
+  position:relative;
+  color: #fff;
+}
+
+.one, .two, .three, .four, .five, .six {
+	position: relative;
+	transform: scale(.6);
+}
+
+.one, .two, .three {
+  z-index: -50;
+}
+
+.one{
+  top:-1150px;
+}
+
+.two {
+  top:-2150px;
+}
+
+.three {
+  top:-3150px;
+}
+
+.sym {
+  position: relative;
+  transform: scale(.65);
+  top: -150px;
+	z-index: 10;
+}
+
+/* Teal 1 Animations */
+.one {
+  opacity: 1;
+  transform: scale3d(.6,.6,.6);
+  animation: tealpaint 2s;
+  -webkit-animation: tealpaint 2s;
+  -moz-animation: tealpaint 2s;
+  -o-animation: tealpaint 2s;
+  -ms-animation: tealpaint 2s;
+}
+@keyframes tealpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  13% {opacity: 0;}
+  25% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-webkit-keyframes tealpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  13% {opacity: 0;}
+  25% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-moz-keyframes tealpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  13% {opacity: 0;}
+  25% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-o-keyframes tealpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  13% {opacity: 0;}
+  25% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-ms-keyframes tealpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  13% {opacity: 0;}
+  25% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+
+/* Purple 1 Animations */
+.two {
+  opacity: 1;
+  transform: scale3d(.6,.6,.6);
+  animation: purplepaint 2s;
+  -webkit-animation: purplepaint 2s;
+  -moz-animation: purplepaint 2s;
+  -o-animation: purplepaint 2s;
+  -ms-animation: purplepaint 2s;
+}
+@keyframes purplepaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  37% {opacity: 0;}
+  50% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-webkit-keyframes purplepaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  37% {opacity: 0;}
+  50% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-moz-keyframes purplepaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  37% {opacity: 0;}
+  50% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-o-keyframes purplepaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  37% {opacity: 0;}
+  50% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-ms-keyframes purplepaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  37% {opacity: 0;}
+  50% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  99% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+
+/* Pink 1 Animations */
+.three {
+  opacity: 1;
+  transform: scale3d(.6,.6,.6);
+  animation: pinkpaint 2s;
+  -webkit-animation: pinkpaint 2s;
+  -moz-animation: pinkpaint 2s;
+  -o-animation: pinkpaint 2s;
+  -ms-animation: pinkpaint 2s;
+}
+@keyframes pinkpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  62% {opacity: 0;}
+  75% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-webkit-keyframes pinkpaint {
+ 0% {opacity: 0; transform: scale3d(20,20,20);}
+  62% {opacity: 0;}
+  75% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-moz-keyframes pinkpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  62% {opacity: 0;}
+  75% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-o-keyframes pinkpaint {
+  0% {opacity: 0; transform: scale3d(20,20,20);}
+  62% {opacity: 0;}
+  75% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+@-ms-keyframes pinkpaint {
+ 0% {opacity: 0; transform: scale3d(20,20,20);}
+  62% {opacity: 0;}
+  75% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  90% {opacity: 1; transform: scale3d(.6,.6,.6);}
+  100% {opacity: 1; transform: scale3d(.6,.6,.6);}
+}
+
+/* Symbols Animations */
+.sym {
+  opacity: 1;
+  animation: logo 4s;
+  -webkit-animation: logo 4s;
+  -moz-animation: logo 4s;
+  -o-animation: logo 4s;
+  -ms-animation: logo 4s;
+}
+@keyframes logo {
+ 0% {opacity: 0;}
+  50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+@-webkit-keyframes logo {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+@-moz-keyframes logo {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+@-o-keyframes logo {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+   100% {opacity: 1;} 
+}
+@-ms-keyframes logo {
+ 0% {opacity: 0;}
+ 50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+

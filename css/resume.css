@@ -1,0 +1,245 @@
+
+header {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 100px;
+	background: url("../img/resume/SPpink.png") repeat-x;
+}
+
+
+h1 { 
+	font-family: 'Questrial', sans-serif;
+	color: #2b1d32;
+	font-size: 3.5em;
+	text-align: center;
+	float: center;
+	padding: 50px 300px 0 0;
+	margin-bottom: 0;
+}
+
+
+h2 { 
+	font-family: 'Questrial', sans-serif;
+	color: #2b1d32;
+	font-size: 6em;
+	text-align: center;
+	float: center;
+	padding-left: 300px;
+	margin-top: 10px;
+}
+
+h3 { 
+	font-family: 'Acme', sans-serif;
+	font-size: 5em;
+	text-align: center;
+	float: center;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin: 0;
+}
+
+
+.one {
+	color: #2e3a53;
+}
+
+.two {
+	color: #1f1225;
+}
+.three {
+	color: #2f6056;
+}
+.four {
+	color: #47254c;
+}
+body {
+	background: url("../img/dw2.png") ;
+	color: #1D9089;
+}
+
+
+nav {
+	text-align: center;
+	float: center;
+	margin-left: -25px;
+	margin-top: 50px;
+	margin-bottom: 350px;
+}
+
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	font-weight: 800;
+}
+
+nav ul li a {
+	font-family: 'Questrial', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #204449;
+	font-size: 1.75em;
+	padding: 60px;
+}
+
+nav li a {
+	border: 2px;
+	padding: 20px;
+}
+
+nav a { color: #B9EFEF;} 
+
+nav a:hover { 
+	color: #B9EFEF;
+	background: url("../img/resume/WClink2.png") no-repeat;
+	background-size: 90%;
+	background-position: center;
+} 
+
+ul li {
+	text-decoration: none;
+	list-style: none;
+}
+
+
+section {
+	text-align: center;
+	float: center;
+	margin-left: -25px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+
+section p {
+	font-family: 'Acme', sans-serif;
+	color: #f0ecf5;
+	font-size: 2em;
+	margin: 0;
+	}
+
+section ul li {
+	font-family: 'Marcellus SC', serif; 
+	color: #f0ecf5;
+	font-size: 16pt;
+	margin: 0;
+	line-height: 24pt;
+	float: center;
+}
+
+
+
+.grid4 .col:nth-of-type(4n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: left;
+}
+
+.col {
+	float: left;
+	margin-left: 3.2%;
+	margin-bottom: 30px;
+}
+
+/* grid4 col */
+.grid4 .col {
+	width: 22.6%;
+}
+
+/* grid3 col */
+.grid3 .col {
+	width: 31.2%;
+}
+
+/* grid2 col */
+.grid2 .col {
+	width: 48.4%;
+}
+
+
+#comp {
+	max-width: 100%;
+	margin: 130px 0 20px 0;
+	padding: 100px 0 650px 0;
+	background: url("../img/resume/SPblue2.png") repeat-x;
+	text-align: center;
+	}	
+
+#fam {
+	max-width: 100%;
+	margin: 50px 0 20px 0;
+	padding: 150px 0 650px 0;
+	background: url("../img/resume/SPdarkpurple.png") repeat-x;
+	text-align: center;
+	}
+
+
+#ed {
+	max-width: 100%;
+	margin: 0 0 20px 0;
+	padding: 80px 0 350px 0;
+	background: url("../img/resume/SPseafoam.png") repeat-x;
+	float: center;
+	text-align: left;
+}
+
+#ed li:nth-child(2) {
+	text-indent: 5%;
+	margin-bottom: .8em;
+}
+
+#ed li:nth-child(3) {
+	text-indent: 15%;
+}
+
+#ed li:nth-child(4) {
+	text-indent: 20%;
+	margin-bottom: .8em;
+}
+
+#ed li:nth-child(5) {
+	text-indent: 30%;
+}
+
+#ed li:nth-child(6) {
+	text-indent: 35%;
+	margin-bottom: .8em;
+}
+
+#ed li:nth-child(7) {
+	text-indent: 45%;
+}
+
+#ed li:nth-child(8) {
+	text-indent: 50%;
+}
+#ed li:nth-child(9) {
+	text-indent: 55%;
+}
+
+#work {
+	max-width: 100%;
+	margin: 0 0 20px 0;
+	padding: 150px 0px 350px 0px;
+	background: url("../img/resume/SPpurple.png") repeat-x;
+	float: center;
+	text-align: center;
+}
+
+#work ul li {
+	font-size: 20pt;
+	margin-bottom: 1em;
+}
+
+#foot {
+	color: #f0ecf5;
+	text-align: center;
+	float: center;
+	text-transform: uppercase;
+	max-width: 100%;
+}
