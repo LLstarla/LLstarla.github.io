@@ -1,245 +1,139 @@
-
-header {
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding: 100px;
-	background: url("../img/resume/SPpink.png") repeat-x;
+html {
+  background: url("../img/dw2.png") repeat;
 }
 
+.contents {
+  position: absolute;
+  top: 240px;
+}
 
-h1 { 
+h1 {
+	font-family: 'Laila', serif;
+	
+	color: #601147;
+	font-size: 4em;
+	margin: 0px;
+}
+
+h2 {
 	font-family: 'Questrial', sans-serif;
-	color: #2b1d32;
-	font-size: 3.5em;
-	text-align: center;
-	float: center;
-	padding: 50px 300px 0 0;
-	margin-bottom: 0;
+	color: #601147;
+	font-size: 3em;
+	margin: 0px;
 }
 
-
-h2 { 
+h3 {
 	font-family: 'Questrial', sans-serif;
-	color: #2b1d32;
-	font-size: 6em;
-	text-align: center;
-	float: center;
-	padding-left: 300px;
-	margin-top: 10px;
+	color: #601147;
+	font-size: 2.5em;
+	margin: 0px;
 }
 
-h3 { 
-	font-family: 'Acme', sans-serif;
-	font-size: 5em;
-	text-align: center;
-	float: center;
-	text-transform: uppercase;
-	letter-spacing: .2em;
-	margin: 0;
+/*Body copy*/
+li {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1.25em;
+	margin: 10px;
+	color: #0F9E92;
 }
 
-
-.one {
-	color: #2e3a53;
+li {
+	list-style: none;
 }
-
-.two {
-	color: #1f1225;
-}
-.three {
-	color: #2f6056;
-}
-.four {
-	color: #47254c;
-}
-body {
-	background: url("../img/dw2.png") ;
-	color: #1D9089;
-}
-
+/* Navigation */
 
 nav {
-	text-align: center;
-	float: center;
-	margin-left: -25px;
-	margin-top: 50px;
-	margin-bottom: 350px;
+  position: absolute;
+  margin-top: -3932px;
+  max-width: 100%;
+  left: 200px;
 }
 
-
 nav li {
-	display: inline;
+  display: inline;
 }
 
 nav a {
-	font-weight: 800;
+  font-weight: 900; 
 }
 
-nav ul li a {
-	font-family: 'Questrial', sans-serif;
-	list-style: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #204449;
-	font-size: 1.75em;
-	padding: 60px;
+nav ul li a:link, nav ul li a:visited {
+  font-family: 'Questrial', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #204449;
+  font-size: 1.75rem; 
 }
 
-nav li a {
-	border: 2px;
-	padding: 20px;
+li a {
+  border: 2px;
+  padding: 20px;
 }
 
-nav a { color: #B9EFEF;} 
-
-nav a:hover { 
-	color: #B9EFEF;
-	background: url("../img/resume/WClink2.png") no-repeat;
-	background-size: 90%;
-	background-position: center;
-} 
-
-ul li {
-	text-decoration: none;
-	list-style: none;
+nav ul li a:hover { 
+  color: #B9EFEF;
+  background: url("../img/WClink2.png") no-repeat;
+  background-size: 90%;
+  background-position: center;
 }
 
-
-section {
-	text-align: center;
-	float: center;
-	margin-left: -25px;
-	margin-top: 50px;
-	margin-bottom: 150px;
+footer {
+  margin: 50px;
 }
 
+footer p {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+  color: #204449;
+  font-weight: 300;
+  width: 100%;
 
-section p {
-	font-family: 'Acme', sans-serif;
-	color: #f0ecf5;
-	font-size: 2em;
-	margin: 0;
-	}
-
-section ul li {
-	font-family: 'Marcellus SC', serif; 
-	color: #f0ecf5;
-	font-size: 16pt;
-	margin: 0;
-	line-height: 24pt;
-	float: center;
 }
 
-
-
-.grid4 .col:nth-of-type(4n+1),
-.grid3 .col:nth-of-type(3n+1),
-.grid2 .col:nth-of-type(2n+1) {
-	margin-left: 0;
-	clear: left;
+.contents {
+  position: absolute;
+  
 }
 
-.col {
-	float: left;
-	margin-left: 3.2%;
-	margin-bottom: 30px;
+/****** Logo Styling ******/
+.one, .two, .three, .four, .five, .six {
+	position: relative;
+	transform: scale(.6);
 }
 
-/* grid4 col */
-.grid4 .col {
-	width: 22.6%;
+.one, .two, .three {
+  z-index: -50;
 }
 
-/* grid3 col */
-.grid3 .col {
-	width: 31.2%;
+.one{
+  top:-1150px;
 }
 
-/* grid2 col */
-.grid2 .col {
-	width: 48.4%;
+.two {
+  top:-2150px;
 }
 
-
-#comp {
-	max-width: 100%;
-	margin: 130px 0 20px 0;
-	padding: 100px 0 650px 0;
-	background: url("../img/resume/SPblue2.png") repeat-x;
-	text-align: center;
-	}	
-
-#fam {
-	max-width: 100%;
-	margin: 50px 0 20px 0;
-	padding: 150px 0 650px 0;
-	background: url("../img/resume/SPdarkpurple.png") repeat-x;
-	text-align: center;
-	}
-
-
-#ed {
-	max-width: 100%;
-	margin: 0 0 20px 0;
-	padding: 80px 0 350px 0;
-	background: url("../img/resume/SPseafoam.png") repeat-x;
-	float: center;
-	text-align: left;
+.three {
+  top:-3150px;
 }
 
-#ed li:nth-child(2) {
-	text-indent: 5%;
-	margin-bottom: .8em;
+.sym {
+  position: relative;
+  transform: scale(.65);
+  top: -150px;
+	z-index: 10;
 }
 
-#ed li:nth-child(3) {
-	text-indent: 15%;
-}
+.logo {
+  transform: translate(-512px,-1149px) scale(.45);
 
-#ed li:nth-child(4) {
-	text-indent: 20%;
-	margin-bottom: .8em;
-}
 
-#ed li:nth-child(5) {
-	text-indent: 30%;
-}
 
-#ed li:nth-child(6) {
-	text-indent: 35%;
-	margin-bottom: .8em;
-}
 
-#ed li:nth-child(7) {
-	text-indent: 45%;
-}
 
-#ed li:nth-child(8) {
-	text-indent: 50%;
-}
-#ed li:nth-child(9) {
-	text-indent: 55%;
-}
 
-#work {
-	max-width: 100%;
-	margin: 0 0 20px 0;
-	padding: 150px 0px 350px 0px;
-	background: url("../img/resume/SPpurple.png") repeat-x;
-	float: center;
-	text-align: center;
-}
 
-#work ul li {
-	font-size: 20pt;
-	margin-bottom: 1em;
-}
 
-#foot {
-	color: #f0ecf5;
-	text-align: center;
-	float: center;
-	text-transform: uppercase;
-	max-width: 100%;
-}
+

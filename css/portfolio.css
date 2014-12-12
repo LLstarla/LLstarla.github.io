@@ -9,6 +9,78 @@ li {
 }
 
 
+
+/****** Logo Styling ******/
+.one, .two, .three, .four, .five, .six {
+	position: relative;
+	transform: scale(.6);
+}
+
+.one, .two, .three {
+  z-index: -50;
+}
+
+.one{
+  top:-1150px;
+}
+
+.two {
+  top:-2150px;
+}
+
+.three {
+  top:-3150px;
+}
+
+.sym {
+  position: relative;
+  transform: scale(.65);
+  top: -150px;
+	z-index: 10;
+}
+
+.logo {
+  transform: translate(-512px,-1149px) scale(.45);
+}
+
+nav {
+  position: absolute;
+  margin-top: -3932px;
+  max-width: 100%;
+  left: 200px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  font-weight: 900; 
+}
+
+nav ul li a:link, nav ul li a:visited {
+  font-family: 'Questrial', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #204449;
+  font-size: 1.75rem; 
+}
+
+li a {
+  border: 2px;
+  padding: 20px;
+}
+
+nav ul li a:hover { 
+  color: #B9EFEF;
+  background: url("../img/WClink2.png") no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+
+
 /*****   Word Styling   *****/
 
 p {
