@@ -12,6 +12,7 @@ li {
 .contents {
 	position: absolute;
 	top: 140px;
+	margin-left: 30px;
 }
 
 
@@ -88,16 +89,7 @@ nav ul li a:hover {
 
 /*****   Word Styling   *****/
 
-p {
-  margin: 0 auto 2rem;
-  
-  font-family: 'Questrial', sans-serif;
-  font-size: 2.25rem;
-  color: rgb(96, 17, 71);
-  font-weight: 200;
-  width: 90%;
-  float: right;
-}
+
 
 h1 {
 	text-align: center;
@@ -106,7 +98,7 @@ h1 {
   font-size: 4.5rem;
   letter-spacing: 5px;
   color: rgb(96, 17, 71);
-  margin-bottom: 0;
+  margin-bottom: 45px;
   float: right;
 }
 
