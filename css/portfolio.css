@@ -9,6 +9,11 @@ li {
 }
 
 
+.contents {
+	position: absolute;
+	top: 140px;
+}
+
 
 /****** Logo Styling ******/
 .one, .two, .three, .four, .five, .six {

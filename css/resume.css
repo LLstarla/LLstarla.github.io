@@ -11,28 +11,28 @@ h1 {
 	font-family: 'Laila', serif;
 	
 	color: #601147;
-	font-size: 4em;
+	font-size: 3rem;
 	margin: 0px;
 }
 
 h2 {
 	font-family: 'Questrial', sans-serif;
 	color: #601147;
-	font-size: 3em;
+	font-size: 2rem;
 	margin: 0px;
 }
 
 h3 {
 	font-family: 'Questrial', sans-serif;
 	color: #601147;
-	font-size: 2.5em;
+	font-size: 1.5rem;
 	margin: 0px;
 }
 
 /*Body copy*/
 li {
 	font-family: 'Quattrocento Sans', sans-serif;
-	font-size: 1.25em;
+	font-size: 1rem;
 	margin: 10px;
 	color: #0F9E92;
 }
