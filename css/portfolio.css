@@ -12,7 +12,7 @@ li {
 .contents {
 	position: absolute;
 	top: 240px;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 
@@ -83,7 +83,9 @@ nav ul li a:hover {
   
 }
 
-
+#current {
+	color: #AB0375;
+}
 
 /*****   Word Styling   *****/
 

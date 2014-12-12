@@ -2,6 +2,10 @@ html {
   background: url("../img/dw2.png") repeat;
 }
 
+#current {
+  color: #AB0375;
+}
+
 h1 {
   font-family: 'Laila', serif;
   color: #601147;

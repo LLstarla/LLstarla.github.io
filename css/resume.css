@@ -7,7 +7,9 @@ html {
   top: 240px;
 }
 
-
+#current {
+  color: #AB0375;
+}
 
 h3 {
 	font-family: 'Questrial', sans-serif;
