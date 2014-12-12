@@ -70,14 +70,54 @@
   -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
   transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
-.ac-container article p{
-  font-style: italic;
-  color: red;
-  line-height: 23px;
-  font-size: 14px;
-  padding: 20px;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+
+.ph-one {
+  margin: auto;
 }
+
+.ul-one-one {
+  position: absolute;
+  left: 240px;
+}
+
+.ul-two-one {
+ position: absolute;
+ left: 511px;
+}
+
+.ph-two {
+  margin: auto;
+}
+
+.ul-one-two {
+  position: absolute;
+  left: 220px;
+}
+
+.ul-two-two {
+ position: absolute;
+ left: 520px;
+}
+
+.ul-ed li:nth-child(2){
+  margin-bottom: 35px;
+}
+.ul-ed li:nth-child(4){
+  margin-bottom: 35px;
+}
+.ul-ed li:nth-child(6){
+  margin-bottom: 35px;
+}
+
+.ac-work li {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ac-work ul {
+  margin-top: 10px;
+}
+
 .ac-container input:checked ~ article{
   -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
   -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
@@ -86,14 +126,17 @@
   transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
 }
-.ac-container input:checked ~ article.ac-small{
-  height: 230px;
+.ac-container input:checked ~ article.ac-comp{
+  height: 205px;
 }
-.ac-container input:checked ~ article.ac-exlarge{
-  height: 440px;
+.ac-container input:checked ~ article.ac-skill{
+  height: 280px;
 }
-.ac-container input:checked ~ article.ac-large{
+.ac-container input:checked ~ article.ac-ed{
   height: 400px;
+}
+.ac-container input:checked ~ article.ac-work{
+  height: 205px;
 }
 
 html {
@@ -120,9 +163,9 @@ h3 {
 /*Body copy*/
 li {
 	font-family: 'Quattrocento Sans', sans-serif;
-	font-size: 1rem;
-	margin: 10px;
-	color: #0F9E92;
+	font-size: 1.2rem;
+	margin: 10px auto 10px auto;
+	color: #8D6798;
 }
 
 li {
