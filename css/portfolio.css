@@ -46,12 +46,12 @@ li {
 }
 
 .logo {
-  transform: translate(-512px,-1149px) scale(.45);
+  transform: translate(-492px,-1174px) scale(.45);
 }
 
 nav {
   position: absolute;
-  margin-top: -3932px;
+  margin-top: -3960px;
   max-width: 100%;
   left: 200px;
 }
