@@ -9,10 +9,6 @@
 	Yellow: #967b40
 	Green: #468b38
 
-
-
-
-
 	Pink....... #FCDBE6 rgba(252,219,230,1)
 	Purple..... #764E76 rgba(118,78,118,1)
 	Blue....... #7B84C9 rgba(123,132,201,1)
@@ -117,6 +113,10 @@
 		text-align: left;
 	}
 
+	li {
+		list-style: none;
+	}
+
 	.resone {
 		font-size: 4rem;
 		font-family: 'ABeeZee', sans-serif;
@@ -198,6 +198,7 @@
 		color: #FCDBE6;
 		margin: 0 3% 20px 3%;
 	}
+
 
 	.contact li {
 		list-style: none;
