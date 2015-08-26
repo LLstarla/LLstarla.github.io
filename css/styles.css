@@ -227,35 +227,7 @@
 		margin-right:auto;
 	}
 
-	.pie {
-    display: inline-block;
-    color: #FCDBE6;
-	} 
-
-	.circliful {
-    position: relative; 
-	}
-
-	.circle-text, .circle-info, .circle-text-half, .circle-info-half {
-	    width: 100%;
-	    position: absolute;
-	    text-align: center;
-	    display: inline-block;
-	}
-
-	.circle-info, .circle-info-half {
-		color: #999;
-	}
-
-	.circliful .fa {
-		margin: -10px 3px 0 3px;
-		position: relative;
-		bottom: 4px;
-	}
-
-	.skilz {
-		margin-bottom: 6%;
-	}
+	
 
 /*********** IMAGES *******************/
 
@@ -264,12 +236,6 @@
 		left: 0;
 		bottom: 1px;
 		width: 20%;
-	}
-
-	.iconz {
-		position: relative;
-		width: 30%;
-		margin-top: 60px;
 	}
 
 	
