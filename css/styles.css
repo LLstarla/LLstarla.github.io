@@ -1,13 +1,5 @@
-/*  Color Palette:
 
-	New Teal: #52baad
-	Aqua: #45a4aa
-	Blue: #34a2c1
-	Purple: #44364c
-	Red: #6c2c26
-	Orange/Tan: #c18565
-	Yellow: #967b40
-	Green: #468b38
+/*  Color Palette:
 
 	Pink....... #FCDBE6 rgba(252,219,230,1)
 	Purple..... #764E76 rgba(118,78,118,1)
@@ -82,46 +74,13 @@
 	h2 {
 		font-size: 3rem;
 		font-family: 'Questrial', sans-serif;
-		color: #00A692;
+		color: #000000;
 		margin-top: 60px;
 		padding:0;
 		text-align: center;
 	}
 
 	h3 {
-		font-size: 4rem;
-		font-family: 'ABeeZee', sans-serif;
-		color: #764E76;
-		margin-left: 15px;
-		padding: 0;
-		text-align: left;
-	}
-
-	
-
-	li {
-		list-style: none;
-	}
-
-	.resone {
-		font-size: 4rem;
-		font-family: 'ABeeZee', sans-serif;
-		color: #764E76;
-		margin-left: 15px;
-		padding: 0;
-		text-align: left;
-	}
-
-	.restwo {
-		font-size: 4rem;
-		font-family: 'ABeeZee', sans-serif;
-		color: #7B84C9;
-		margin-left: 15px;
-		padding: 0;
-		text-align: left;
-	}
-
-	.resthree {
 		font-size: 4rem;
 		font-family: 'ABeeZee', sans-serif;
 		color: #764E76;
@@ -159,9 +118,7 @@
 		margin: 5px;
 	}
 
-	.school {
-		margin-top: 40px;
-	}
+	
 
 /*********** GENERAL CONTENT ******************/
 
@@ -198,13 +155,13 @@
 	}
 
 	a  {
-		color: #00A692;
+		color: #000000;
 		padding: 10px;
 		margin: 0 20px 0 20px;
 	}
 
 	a:hover {
-		color: #91E2D5;
+		color: #7B84C9;
 	}
 	
 	.icony {
@@ -215,10 +172,6 @@
 		margin-left:auto;
 		margin-right:auto;
 	}
-
-	
-
-/*********** IMAGES *******************/
 
 	.loralee {
 		position: absolute;
