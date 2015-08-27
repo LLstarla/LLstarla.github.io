@@ -7,6 +7,8 @@
 	Teal....... #91E2D5 rgba(145,226,213,1)
 	Seafoam.... #00A692 rgba(0,166,146,1)
 
+	Light purple: #DFC4E0;
+
 	Icon Purple: #723F6E;   */
 
 
@@ -65,7 +67,7 @@
 	h1 {
 		font-size: 5rem;
 		font-family: 'Questrial', sans-serif;
-		color: #7B84C9;
+		color: #868587; /*#937bc6; 7B84C9*/
 		margin:0;
 		padding:0;
 		text-align: left;
@@ -130,7 +132,7 @@
 		font-size: 1.3rem;
 		font-family: 'Oxygen', sans-serif;
 		font-weight: 300;
-		color: #FCDBE6;
+		color: #937bc6;
 		margin: 40px 5% 40px 5%;
 	}
 
@@ -161,7 +163,7 @@
 	}
 
 	a:hover {
-		color: #7B84C9;
+		color: #DFC4E0;
 	}
 	
 	.icony {
@@ -185,7 +187,7 @@
 	}
 
 	.about p {
-		color: #7B84C9;
+		color: #937bc6;
 		margin:0;
 		margin-top: 20px;
 		margin-right: 20px;
