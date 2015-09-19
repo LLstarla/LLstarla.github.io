@@ -1,7 +1,7 @@
 <?php
 // Define some constants
-define( "RECIPIENT_NAME", "your name" );
-define( "RECIPIENT_EMAIL", "email@gmail.com" );
+define( "RECIPIENT_NAME", "Loralee Starla Gentry" );
+define( "RECIPIENT_EMAIL", "loraleestarla@me.com" );
 define( "EMAIL_SUBJECT", "Visitor Message" );
 
 // Read the form values
@@ -27,7 +27,7 @@ if ( isset($_GET["ajax"]) ) {
     <title>Thanks!</title>
   </head>
   <body>
-  <?php if ( $success ) echo "<p>Thanks for sending your message! We'll get back to you shortly.</p>" ?>
+  <?php if ( $success ) echo "<p>Thanks for sending your message! I'll get back to you shortly.</p>" ?>
   <?php if ( !$success ) echo "<p>There was a problem sending your message. Please try again.</p>" ?>
   </body>
 </html>
