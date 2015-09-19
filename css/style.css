@@ -2721,12 +2721,11 @@ div.footie a:hover {
 }
 
 .main-title-two{
-	overflow: hidden;
-	position: absolute;
-	width: 100%;
-	height: 200px;
 	pointer-events: none;
 	z-index:10;
+	margin: 70px 5px 0px 5px;
+	text-align: center;
+	
 }
 
 .main-title-two a{text-decoration: none;}
@@ -2734,8 +2733,8 @@ div.footie a:hover {
 .buy-logo-two {
 	display: inline;
 	width: 135px;
-	margin: 20px 30px 100px 30px;
 	height: auto;
+	margin: 0 20px 0 20px;
 	z-index: 10;
 	color: #9b58b6;
 	font-size: 14px;
