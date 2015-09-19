@@ -1730,8 +1730,11 @@ html, body {
 	text-transform: uppercase;
 }
 .f-data{
+	display: inline;
+	padding: 2px;
+	margin: 2px 15px;
 	color: #3f3f3f;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	line-height: 30px;
@@ -1747,7 +1750,10 @@ html, body {
 .f-data.hour-3 span{padding-left: 40px;}
 .f-data img{margin-right: 10px;}
 .no-top{padding-top:0 !important;}
-.f-bottom{margin-bottom: 70px !important;}
+.f-bottom{margin-bottom: 50px !important;
+	font-size: 19px !important;
+	color: #595959 !important;
+}
 
 
 
@@ -2598,7 +2604,11 @@ a.notification-close {
 	background-color: #dc615c;
 }
 
-
+.footie {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
 
 
 /*	Contact Form
@@ -2694,3 +2704,69 @@ a.notification-close {
 	background: #dc615c;
 	color: #fff;
 }
+
+
+/*Other*/
+
+div.footie a {
+	color: #3f3f3f;
+	text-decoration: none;
+
+}
+
+div.footie a:hover {
+	color: #9b58b6;
+	text-decoration: none;
+
+}
+
+.main-title-two{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	pointer-events: none;
+	z-index:10;
+}
+
+.main-title-two a{text-decoration: none;}
+
+.buy-logo-two {
+	display: inline;
+	width: 135px;
+	margin: 20px 30px 100px 30px;
+	height: auto;
+	z-index: 10;
+	color: #9b58b6;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 11px 25px 11px;
+	cursor: pointer;
+	border: 2px solid #9b58b6;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	pointer-events: auto;
+	position: relative;
+
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.buy-logo-two:hover {
+	text-decoration: none;
+	border: 2px solid #ffffff !important;
+	color: white;
+	background-color: #9b58b6;
+}
+
+
+
+
+
+
