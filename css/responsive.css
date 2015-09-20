@@ -119,6 +119,18 @@
 	.main-title ul{ margin-top:0; height:80px;}
 	.main-title .spacer{ margin:20px auto;}
 	.buy-logo{ margin-top:35px;}
+	.f-data {
+		display: block;
+	}
+	.buy-logo-two {
+		display: block;
+		width: 150px;
+		margin: 20px auto 0 auto;
+	}
+
+
+
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
