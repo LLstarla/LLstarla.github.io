@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* yellow Color 62287a  005c85 */
 .yellow .intro {
-	background-color: #62287a;
+	background-image: linear-gradient(to bottom right, #62287a, #005c85);
 }
 .yellow .logo span{
 	border-color: #62287a;
