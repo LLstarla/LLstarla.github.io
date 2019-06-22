@@ -1,116 +1,116 @@
 @charset "UTF-8";
-/* yellow Color #f1c40e RGB(241, 196, 14)|  Dark Color #efba00 RGB(239, 186, 0) */
+/* yellow Color 62287a  005c85 */
 .yellow .intro {
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .logo span{
-	border-color: #f1c40e;
+	border-color: #62287a;
 }
 .yellow .menu a:hover{
-	color: #f1c40e;
+	color: #62287a;
 }
 .yellow ::selection {
-	background-color: #f1c40e;
+	background-color: #62287a;
 	color: #fff;
 }
 .yellow #nav .current a{
-	color: #f1c40e !important;
+	color: #62287a !important;
 }
 .yellow .spacer{
 	background: rgba(241, 196, 14, 0.5);
 }
 .yellow .title-two, .yellow .title-full-two{
-	color: #f1c40e;
+	color: #62287a;
 }
 .yellow .half-content a{
-	color: #f1c40e;
+	color: #62287a;
 }
 .yellow .fun-icon{ 
 	font-size: 60px;
     -webkit-text-fill-color: rgba(225,225,225,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #f1c40e;
+    -webkit-text-stroke-color: #62287a;
 }
 .yellow .p-two{
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .sl-ico{
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .folio-btn:hover{
-	background: #f1c40e;
+	background: #62287a;
 	color: #fff;
 }
 .yellow .ch-grid {
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .f-title-two{
-	color: #f1c40e;
+	color: #62287a;
 }
 .yellow #sendMessage {
-	background: #f1c40e;
+	background: #62287a;
 }
 .yellow #sendMessage:hover, .yellow .load-color  {
-	background: #f1c40e !important
+	background: #62287a !important
 }
 .yellow #contactForm #senderName:focus, 
 .yellow #contactForm #senderEmail:focus, 
 .yellow #contactForm #message:focus {
-	border: 1px solid #f1c40e;
+	border: 1px solid #62287a;
 }
 .yellow .s-media span:hover{
-	color: #f1c40e;
-	border-color: #f1c40e;
+	color: #62287a;
+	border-color: #62287a;
 }
 .yellow .scrollup {
-	background: #f1c40e;
+	background: #62287a;
 }
 .yellow .progress-bar .skill-in {
-  background-color: #f1c40e;
+  background-color: #62287a;
 }
 .yellow .car-prev-2, .yellow .car-next-2{
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .selected{
-	border: 2px solid #efba00 !important; 
-	background: #f1c40e !important;
+	border: 2px solid #005c85 !important; 
+	background: #62287a !important;
 }
 .yellow .controller ul li:hover{
-	border: 2px solid #f1c40e; 
-	background: #f1c40e;
+	border: 2px solid #62287a; 
+	background: #62287a;
 }
 .yellow .classic-blog .post .date {
-    border: 1px solid #f1c40e;
-    color: #f1c40e;
+    border: 1px solid #62287a;
+    color: #62287a;
 }
 .yellow .classic-blog .posts .format-wrapper {
-    background-color: #f1c40e;
+    background-color: #62287a;
 }
 .yellow .classic-blog .post a.date:hover {
-    background-color: #f1c40e;
+    background-color: #62287a;
 }
 .yellow .pagination ul > li > a,
 .yellow .pagination ul > li > span {
-    background: #f1c40e;
+    background: #62287a;
 }
 .yellow .pagination ul > li > a:hover,
 .yellow .pagination ul > li > a:focus,
 .yellow .pagination ul > .active > a,
 .yellow .pagination ul > .active > span {
-    background: #efba00;
+    background: #005c85;
 }
 .yellow .car-prev, .yellow .car-next{
-	background-color: #f1c40e;
+	background-color: #62287a;
 }
 .yellow .controller-2 ul li:hover,.controller-3 ul li:hover{
-	border: 2px solid #f1c40e; 
-	background: #f1c40e;
+	border: 2px solid #62287a; 
+	background: #62287a;
 }
 .yellow #sendMessage:hover, .load-color  {
-	background: #efba00 !important;
+	background: #005c85 !important;
 }
 .yellow .my-button{
-	background: #f1c40e;
+	background: #62287a;
 }
 .yellow .my-button a{
 	color: #f7f7f7;
@@ -119,7 +119,7 @@
 	color: #fff;
 }
 .yellow .my-button:hover{
-	background: #efba00;
+	background: #005c85;
 }
 .yellow a:hover,
 .yellow a:focus {
