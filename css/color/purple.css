@@ -28,9 +28,9 @@
 }
 .purple .fun-icon{ 
 	font-size: 60px;
-    -webkit-text-fill-color: rgba(225,225,225,0); /* Will override color (regardless of order) */
+    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #7558b6;
+    -webkit-text-stroke-color: #000000;
 }
 .purple .p-two{
 	background-image: linear-gradient(to bottom right, #8c4d98, #3592b8);
