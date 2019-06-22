@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* purple Color #7558b6 RGB(117, 88, 182)|  Dark Color #5d3ba9 RGB(93, 59, 169) */
 .purple .intro {
-	background-color: #7558b6;
+	background-image: linear-gradient(to bottom right, #8c4d98, #3592b8);
+	/* background-color: #7558b6; */
 }
 .purple .logo span{
 	border-color: #7558b6;
