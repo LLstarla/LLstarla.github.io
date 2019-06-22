@@ -33,7 +33,8 @@
     -webkit-text-stroke-color: #7558b6;
 }
 .purple .p-two{
-	background-color: #7558b6;
+	background-image: linear-gradient(to bottom left, #8c4d98, #3592b8);
+	/* background-color: #7558b6; */
 }
 .purple .sl-ico{
 	background-color: #7558b6;
